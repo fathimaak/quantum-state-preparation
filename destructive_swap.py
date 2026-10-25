@@ -212,7 +212,7 @@ def main():
     )
 
     print("=" * 60)
-    print("SANKHANA - DESTRUCTIVE SWAP TEST")
+    print("DESTRUCTIVE SWAP TEST")
     print("=" * 60)
     for k, v in res.items():
         if isinstance(v, float):

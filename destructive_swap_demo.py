@@ -15,7 +15,7 @@ SEED = 7
 n = N_QUBITS
 
 print("=" * 60)
-print("DESTRUCTIVE SWAP TEST DEMO (Sankhana)")
+print("DESTRUCTIVE SWAP TEST DEMO")
 print("=" * 60)
 print(f"States: n = {n} qubits per register, theta_A = {THETA_A:.4f}, theta_B = {THETA_B:.4f}")
 print(f"Theoretical overlap (reference) = {theoretical_overlap():.4f}\n")

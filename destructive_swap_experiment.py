@@ -2,9 +2,9 @@
 destructive_swap_experiment.py - accuracy-versus-shots sweep for the destructive-SWAP method.
 
 Writes CSV files in ./results/ for Donita:
-  swap_results.csv / destructive_swap_results.csv
+  destructive_swap_results.csv
       one row per run: method,n,shots,trial,seed,estimate,stderr,theoretical,abs_error
-  swap_summary.csv / destructive_swap_summary.csv
+  destructive_swap_summary.csv
       one row per shot budget: mean estimate, empirical std, mean abs error, mean reported se, RMSE
 
 Run:   python destructive_swap_experiment.py                 (Aer, 20 trials per budget)
